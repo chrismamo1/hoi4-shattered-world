@@ -1149,7 +1149,15 @@
  CON_communism:0 "Confederate Communist Authority"
  CON_fascism:0 "The Confederate States of America"
  CON_fascism_ADJ:0 "Pigfucker"
+
+ KZK_democratic:0 "Republic of Kazakhstan"
+ KZK_communism:0 "Kazakhstani SSR"
+ KZK_fascism:0 "Stronk Kazakhstan"
  
+ TKM_democratic:0 "Republic of Turkmenistan"
+ TKM_communism:0 "Turkmenistani SSR"
+ TKM_fascism:0 "Stronk Turkmenistan"
+
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"
