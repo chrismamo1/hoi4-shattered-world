@@ -1144,6 +1144,11 @@
  TEX_communism:0 "Texan Communist Authority"
  TEX_fascism:0 "Free Texan Empire"
  TEX_fascism_ADJ:0 "Texan"
+
+ CON_democratic:0 "Confederate Republic"
+ CON_communism:0 "Confederate Communist Authority"
+ CON_fascism:0 "The Confederate States of America"
+ CON_fascism_ADJ:0 "Pigfucker"
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
