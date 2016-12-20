@@ -1,37 +1,34 @@
-﻿capital = 305
+﻿capital = 375
 
-oob = "ECU_1936"
+oob = "TEX_1936"
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
-	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
 }
-set_country_flag = monroe_doctrine
-
-set_convoys = 5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 108
 	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "ECU_1939"
+	oob = "TEX_1939"
 	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
 		gw_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
 
 		#doctrines
 		air_superiority = 1
@@ -39,6 +36,8 @@ set_convoys = 5
 		trench_warfare = 1
 		fleet_in_being = 1
 		battlefleet_concentration = 1
+		convoy_sailing = 1
+
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -52,6 +51,7 @@ set_convoys = 5
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
 		oil_plant = 1
+		improved_oil_plant = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -63,34 +63,37 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 100
+			popularity = 2
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 92
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 2
 			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 6
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.12.15"
-	election_frequency = 84
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Federico Páez"
-	desc = "POLITICS_FEDERICO_PAEZ_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
+name = "Sam Houston"
+desc = ""
+expire = "1965.1.1"
+ideology = fascism
+traits = {
+#
+}
 }
 
 1939.1.1 = {
@@ -98,33 +101,33 @@ create_country_leader = {
 
 		parties = {
 			democratic = { 
-				popularity = 100
+				popularity = 0
 			}
 
 			fascism = {
-				popularity = 0
+				popularity = 20
 			}
 			
 			communism = {
-				popularity = 0
+				popularity = 10
 				#banned = no #default is no
 			}
-		}
 		
-		ruling_party = democratic
-		last_election = "1933.12.15"
-		election_frequency = 84
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Aurelio Mosquera"
-		desc = "POLITICS_AURELIO_MOSQUERA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
+			neutrality = { 
+				popularity = 75
+			}
 		}
+	
+		ruling_party = communism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
+}
+
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
 }
