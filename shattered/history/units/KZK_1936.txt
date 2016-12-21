@@ -1,0 +1,73 @@
+division_template = {
+        name = "Army Core"
+
+        regiments = {
+                cavalry = { x = 0 y = 0 }
+                cavalry = { x = 0 y = 1 }
+                cavalry = { x = 0 y = 2 }
+                cavalry = { x = 1 y = 0 }
+                cavalry = { x = 1 y = 1 }
+                cavalry = { x = 1 y = 2 }
+                cavalry = { x = 2 y = 0 }
+                cavalry = { x = 2 y = 1 }
+                cavalry = { x = 2 y = 2 }
+        }
+        priority = 2
+}
+
+units = {
+        division = {
+                name = "First Kazakhstani Regiment"
+                location = 7541
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Second Kazakhstani Regiment"
+                location = 7641
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Third Kazakhstani Regiment"
+                location = 12383
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Fourth Kazakhstani Regiment"
+                location = 12454
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Fifth Kazakhstani Regiment"
+                location = 12397
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Sixth Kazakhstani Regiment"
+                location = 10277
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "Seventh Kazakhstani Regiment"
+                location = 4764
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+}
+
+instant_effect = {
+        add_equipment_production = {
+                equipment = {
+                        type = infantry_equipment_0
+                        creator = "FIXME"
+                }
+                requested_factories = 1
+                progress = 0.28
+                efficiency = 100
+        }
+}
