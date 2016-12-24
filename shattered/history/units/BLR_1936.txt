@@ -1,0 +1,139 @@
+division_template = {
+        name = "Army Core"
+
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+        }
+        priority = 2
+}
+
+units = {
+        division = {
+                name = "1st Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "2nd Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "3rd Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "4th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "5th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "6th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "7th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "8th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "9th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "10th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "11th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "12th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "13th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "14th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "15th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "16th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "17th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "18th Belarussian National Guard"
+                location = 6359
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+}
+
+instant_effect = {
+        add_equipment_production = {
+                equipment = {
+                        type = infantry_equipment_0
+                        creator = "BLR"
+                }
+                requested_factories = 2
+                progress = 0.28
+                efficiency = 100
+        }
+}
