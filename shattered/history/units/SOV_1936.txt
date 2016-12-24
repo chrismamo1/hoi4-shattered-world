@@ -311,79 +311,8 @@ units = {
 
 	}
 
-	# 11ya Strelkoviy Korpus
-	division= {			
-		name = "2ya 'Belorusskaya' Strelk. Div."		
-		location = 3219
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "8ya 'Minskaya' Strelk. Div."		
-		location = 6371
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "37ya Strelkovaya Diviziya"		
-		location = 6220
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-
-	# 3ya Kavaleriyskiy Korpus
-	division= {			
-		name = "7ya Kavaleriyskaya Diviziya"		
-		location = 3267
-		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division= {			
-		name = "11ya Kavaleriyskaya Diviziya"		
-		location = 11216
-		division_template = "Kavaleriyskaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 
 	# NKVD Belorusskiy Korpus -- NKVD Border Guard and RR units	
-	division= {			
-		name = "2ya NKVD Pogranichnaya Diviziya"		
-		location = 11370
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "3ya NKVD Pogranichnaya Diviziya"		
-		location = 11202
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		name = "8ya NKVD Pogranichnaya Diviziya"		
-		location = 306
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}			
-
 
 	#### Moskva Voennyii Okrug (Moscow Military District) -- Moscow ####
 	# 2ya Strelkoviy Korpus		
@@ -465,34 +394,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-
-	#### Ural'skii Voennyii Okrug (Urals Military District) -- Smolensk ####
-	# 10ya Strelkoviy Korpus		
-	division= {			
-		name = "14ya 'Krivorozhskaya' Strelk. Div."		
-		location = 11241
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "52ya Strelkovaya Diviziya"		
-		location = 11241
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "55ya 'Kurskaya' Strelk. Div."		
-		location = 11241
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-
 	# Subordinate to VO
 	division= {			
 		name = "65ya Strelkovaya Diviziya"		
@@ -519,32 +420,6 @@ units = {
 
 	}			
 
-	#### Volga Voennyii Okrug (Volga Military District) -- Hoymel (Gomel) ####
-	# 12ya Strelkoviy Korpus		
-	division= {			
-		name = "31ya 'Stalingradskaya' Strelk. Div."		
-		location = 9288
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "61ya 'Turkestanskaya' Strelk. Div."		
-		location = 9288
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "70ya Strelkovaya Diviziya"		
-		location = 9288
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 			
 	# 13ya Strelkoviy Korpus		
 	division= {			
@@ -563,64 +438,9 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	
-	# 16ya Strelkoviy Korpus		
-	division= {			
-		name = "4ya 'Smolenskaya' Strelk. Div."		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "43ya Strelkovaya Diviziya"		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "81ya Strelkovaya Diviziya"		
-		location = 11271
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-
-	# Subordinate to VO		
-	division= {			
-		name = "12ya NKVD Pogranichnaya Diviziya"		
-		location = 9288
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}			
-
 
 	##### Yugo-Zapadnaya Teatr VD (South West TVD) -- Kyiv, Dnipropetrovsk #####				
 	#### Kiev Voennyii Okrug (Kiev Military District) -- Kiev ####
-	# 8ya Strelkoviy Korpus		
-	division= {			
-		name = "24ya 'Samaro-Ulyanovsk' Strelk. Div."		
-		location = 215
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
-	division= {			
-		name = "46ya Strelkovaya Diviziya"		
-		location = 9554
-		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}			
 	division= {			
 		name = "58ya Gornostrelkovaya Diviziya"		
 		location = 9493
@@ -1025,16 +845,6 @@ units = {
 
 	}			
 
-	# 7ya Kavaleriyskiy Korpus		
-	division= {			
-		name = "10ya Kavaleriyskaya Diviziya"		
-		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
 	division= {			
 		name = "12ya 'Kubanskaya' Kav. Div."		
 		location = 6474
