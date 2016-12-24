@@ -1163,8 +1163,12 @@
  BLR_fascism:0 "Stronk Belarus"
 
  UKR_democratic:0 "Republic of the Ukraine"
- UKR_communism:0 "Ukrainian SSR" #Belorussian?
+ UKR_communism:0 "Ukrainian SSR"
  UKR_fascism:0 "Stronk Ukraine"
+
+ MFR_democratic:0 "Republic of Alsace-Lorraine"
+ MFR_communism:0 "Middle Francian Communist Authority"
+ MFR_fascism:0 "Stronk Middle Francia"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
