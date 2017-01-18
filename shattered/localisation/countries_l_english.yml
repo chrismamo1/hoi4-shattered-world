@@ -1147,32 +1147,38 @@
 
  CON_democratic:0 "Confederate Republic"
  CON_communism:0 "Confederate Communist Authority"
- CON_fascism:0 "The Confederate States of America"
+ CON_fascism:0 "The Pigfucker Confederacy"
  CON_fascism_ADJ:0 "Pigfucker"
 
  KZK_democratic:0 "Republic of Kazakhstan"
  KZK_communism:0 "Kazakhstani SSR"
  KZK_fascism:0 "Stronk Kazakhstan"
+ KZK_ADJ:0 "Kazakh"
  
  TKM_democratic:0 "Republic of Turkmenistan"
  TKM_communism:0 "Turkmenistani SSR"
  TKM_fascism:0 "Stronk Turkmenistan"
+ TKM_ADJ:0 "Turkmenistani"
 
  BLR_democratic:0 "Republic of Belarus"
  BLR_communism:0 "Belarussian SSR" #Belorussian?
  BLR_fascism:0 "Stronk Belarus"
+ BLR_ADJ:0 "Belarussian"
 
  UKR_democratic:0 "Republic of the Ukraine"
  UKR_communism:0 "Ukrainian SSR"
  UKR_fascism:0 "Stronk Ukraine"
+ UKR_ADJ:0 "Ukrainian"
 
  MFR_democratic:0 "Republic of Alsace-Lorraine"
  MFR_communism:0 "Middle Francian Communist Authority"
  MFR_fascism:0 "Stronk Middle Francia"
+ MFR_ADJ:0 "Lotharingian"
 
  GEO_democratic:0 "Republic of Georgia"
  GEO_communism:0 "Georgian Communist Authority"
  GEO_fascism:0 "Stronk Georgia"
+ GEO_ADJ:0 "Georgian"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"

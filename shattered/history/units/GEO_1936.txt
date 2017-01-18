@@ -1,0 +1,55 @@
+division_template = {
+        name = "Army Core"
+
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+        }
+        priority = 2
+}
+
+units = {
+        division = {
+                name = "1st Georgian Defense Force"
+                location = 3658
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "2nd Georgian Defense Force"
+                location = 11708
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "3rd Georgian Defense Force"
+                location = 4660
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+        division = {
+                name = "4th Georgian Defense Force"
+                location = 7661
+                division_template = "Army Core"
+                start_experience_factor = 0.3
+        }
+}
+
+instant_effect = {
+        add_equipment_production = {
+                equipment = {
+                        type = infantry_equipment_0
+                        creator = "GEO"
+                }
+                requested_factories = 1
+                progress = 0.28
+                efficiency = 100
+        }
+}
